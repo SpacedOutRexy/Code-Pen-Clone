@@ -1,0 +1,30 @@
+.bottom-links-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.bottom-link > .bottom-big-text{
+    font-size: 1.25em;
+    font-weight: 900;
+    padding-left: 4px;
+}
+
+.bottom-link {
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: #efeff0;
+    text-align: center;
+    background-color: #36383f;
+    border: 1px solid #676767;
+    padding: 20px 143.25px;
+}
+
+.filler {
+    padding:136px;
+    background-color: #201c1c;
+}

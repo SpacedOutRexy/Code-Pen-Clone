@@ -1,0 +1,61 @@
+.landing-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, #424650, #1a1917);
+    color:white;
+}
+
+.landing-wrapper > .text-wrapper {
+    padding: 45px;
+    margin-bottom: 100px;
+}
+
+.landing-wrapper > .text-wrapper > .big-text {
+    font-size: 3em;
+}
+
+.landing-wrapper > .text-wrapper > .under-text {
+    font-size: 1.8em;
+    color: #b3b3b3;
+    margin-top: -20px;
+}
+
+.signup-buttons-wrapper > .signup {
+    background-color: #4bce79;
+    font-size: 1.75em;
+    border: #4bce79;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.signup-buttons-wrapper > .learn-more {
+    background-color: black;
+    font-size: 1.75em;
+    color: #efeff0;
+    border: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+
+.landing-wrapper > .side-img-wrapper {
+    padding-top: 25px;
+}
+
+.landing-wrapper > .side-img-wrapper > img {
+    width: 596px;
+    height: auto;
+    box-shadow: 0px 0px 15px 5px rgba(26,25,23,0.79);
+}
+
+.codepen-projects-wrapper {
+    position:relative;
+    z-index:999;
+    margin-bottom: 10px;
+}
